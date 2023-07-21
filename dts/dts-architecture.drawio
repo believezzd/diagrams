@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T06:03:29.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0vf-e0J-syx2xtVA6Bxa" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T06:09:57.813Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wq5YAwgqJe51bs_VTv0x" version="21.2.7" type="github">
   <diagram name="第 1 页" id="Mj50NcLn-KxzZ4JTwbGV">
     <mxGraphModel dx="1503" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="5000" math="0" shadow="0">
       <root>
@@ -63,6 +63,36 @@
         </mxCell>
         <mxCell id="rCOgiok4J5ZEr_1-BvgC-20" value="配置持久化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-21" value="任务指标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-22" value="任务管理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rCOgiok4J5ZEr_1-BvgC-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.5" y="246" as="sourcePoint" />
+            <mxPoint x="500" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-24" value="节点指标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-25" value="Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-26" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rCOgiok4J5ZEr_1-BvgC-2" target="rCOgiok4J5ZEr_1-BvgC-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384" y="330" as="sourcePoint" />
+            <mxPoint x="383.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-29" value="任务下发，短连接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-30" value="状态上报，长连接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
