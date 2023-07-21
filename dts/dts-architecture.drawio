@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T05:56:43.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.2.7" etag="NovOI-h4rqY_WSphFiql" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T06:00:02.215Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PlPawc4O35wFqVQ7DdhI" version="21.2.7" type="github">
   <diagram name="第 1 页" id="Mj50NcLn-KxzZ4JTwbGV">
-    <mxGraphModel>
+    <mxGraphModel dx="1503" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-3" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-4" value="任务配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-5" value="任务组管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-6" value="任务调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-7" value="Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCOgiok4J5ZEr_1-BvgC-8" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
