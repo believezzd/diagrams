@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T09:01:50.162Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="441raUG_pIY2NwdFWtkL" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T09:26:35.633Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GiDd3uE-STv1IDqD3XkS" version="21.6.5" type="github">
   <diagram name="第 1 页" id="Mj50NcLn-KxzZ4JTwbGV">
-    <mxGraphModel dx="1464" dy="753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1049" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,6 +406,85 @@
             <mxPoint x="642" y="2053" as="sourcePoint" />
             <mxPoint x="692" y="2003" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-91" value="创建增量任务附带初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="108" y="2148" width="83.33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-94" target="VcWr8nWMZQII3abK0sYB-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-94" value="创建全量任务，初始化状态" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="102.99999999999996" y="2223" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-95" target="VcWr8nWMZQII3abK0sYB-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-95" value="创建增量任务，初始化状态" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="103.16000000000001" y="2373" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-96" target="VcWr8nWMZQII3abK0sYB-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-96" value="获取当前最新点位" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="102.99999999999999" y="2298" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-91" target="VcWr8nWMZQII3abK0sYB-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325" y="2286" as="sourcePoint" />
+            <mxPoint x="375" y="2236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-101" target="VcWr8nWMZQII3abK0sYB-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-101" value="全量任务进入待分配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="103.17000000000002" y="2448" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-102" target="VcWr8nWMZQII3abK0sYB-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-102" value="全量任务下发执行" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238.00000000000003" y="2448" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-105" target="VcWr8nWMZQII3abK0sYB-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-105" value="全量任务处于运行状态" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238" y="2373" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-106" target="VcWr8nWMZQII3abK0sYB-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-106" value="全量任务是否完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="372.67" y="2367" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-106" target="VcWr8nWMZQII3abK0sYB-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499" y="2522" as="sourcePoint" />
+            <mxPoint x="549" y="2472" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="2340" />
+              <mxPoint x="285" y="2340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-115" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="2306" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-116" target="VcWr8nWMZQII3abK0sYB-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-116" value="增量任务进入待分配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="477" y="2373" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VcWr8nWMZQII3abK0sYB-118" target="VcWr8nWMZQII3abK0sYB-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-118" value="增量任务下发执行" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="477" y="2298" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VcWr8nWMZQII3abK0sYB-121" value="增量任务生命周期管理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="494.33000000000004" y="2231" width="58.33" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
