@@ -4,11 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ncm-LsXCV7eUjBAo0shU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="120" height="360" as="geometry" />
-        </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-3" value="ES / Kafka ..." style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="110" height="140" as="geometry" />
@@ -16,10 +16,10 @@
         <mxCell id="ncm-LsXCV7eUjBAo0shU-4" value="ES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncm-LsXCV7eUjBAo0shU-5" value="DTS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="150" width="60" height="30" as="geometry" />
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-5" value="DTS worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncm-LsXCV7eUjBAo0shU-6" value="pupu-cdc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-6" value="pupu-cdc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="137.5" y="480" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-8" target="ncm-LsXCV7eUjBAo0shU-6">
@@ -27,11 +27,55 @@
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-11" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;data sequences&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ncm-LsXCV7eUjBAo0shU-10">
           <mxGeometry x="-0.1875" y="3" relative="1" as="geometry">
-            <mxPoint x="-25" y="15" as="offset" />
+            <mxPoint x="-5" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-8" value="lucene" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="155" y="230" width="55" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-16" target="ncm-LsXCV7eUjBAo0shU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="254" />
+              <mxPoint x="280" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-28" value="fetch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ncm-LsXCV7eUjBAo0shU-27">
+          <mxGeometry x="-0.1004" y="9" relative="1" as="geometry">
+            <mxPoint x="-9" y="55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.settings;" vertex="1" parent="1">
+          <mxGeometry x="395" y="230" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-17" target="ncm-LsXCV7eUjBAo0shU-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-17" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.settings;" vertex="1" parent="1">
+          <mxGeometry x="416" y="264" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-18" value="es-incr / es-full Extract" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="234" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-20" target="ncm-LsXCV7eUjBAo0shU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-20" value="mixed Transform" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-23" value="ES / Kafka Load" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-23" target="ncm-LsXCV7eUjBAo0shU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-30" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ncm-LsXCV7eUjBAo0shU-29">
+          <mxGeometry x="0.1217" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
