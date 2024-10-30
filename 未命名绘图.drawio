@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="pXEfObrKyUJsB1QcOaEv">
-    <mxGraphModel dx="1334" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="ncm-LsXCV7eUjBAo0shU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="ncm-LsXCV7eUjBAo0shU-3" value="ES / Kafka ..." style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-3" value="ES / Kafka ..." style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-4" value="ES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -30,7 +30,7 @@
             <mxPoint x="-5" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ncm-LsXCV7eUjBAo0shU-8" value="lucene" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="ncm-LsXCV7eUjBAo0shU-8" value="lucene" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="155" y="230" width="55" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ncm-LsXCV7eUjBAo0shU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ncm-LsXCV7eUjBAo0shU-16" target="ncm-LsXCV7eUjBAo0shU-6">
