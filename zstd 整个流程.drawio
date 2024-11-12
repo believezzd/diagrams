@@ -7,8 +7,11 @@
         <mxCell id="mH3gT8QZtKuDU6rffEXB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mH3gT8QZtKuDU6rffEXB-1" target="mH3gT8QZtKuDU6rffEXB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH3gT8QZtKuDU6rffEXB-1" value="ES 降本" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mH3gT8QZtKuDU6rffEXB-1" value="ES 降本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="150" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kS0g3msCb1SnPJ0FawBT-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH3gT8QZtKuDU6rffEXB-2" target="mH3gT8QZtKuDU6rffEXB-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mH3gT8QZtKuDU6rffEXB-2" value="调研存储压缩" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="180" width="90" height="40" as="geometry" />
@@ -22,7 +25,7 @@
         <mxCell id="mH3gT8QZtKuDU6rffEXB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mH3gT8QZtKuDU6rffEXB-5" target="mH3gT8QZtKuDU6rffEXB-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH3gT8QZtKuDU6rffEXB-5" value="立项 &amp;amp; 开发测试" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mH3gT8QZtKuDU6rffEXB-5" value="立项 &amp;amp; 开发测试" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="270" y="250" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mH3gT8QZtKuDU6rffEXB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH3gT8QZtKuDU6rffEXB-6" target="mH3gT8QZtKuDU6rffEXB-7" edge="1">
@@ -52,7 +55,7 @@
         <mxCell id="mH3gT8QZtKuDU6rffEXB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH3gT8QZtKuDU6rffEXB-10" target="mH3gT8QZtKuDU6rffEXB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH3gT8QZtKuDU6rffEXB-10" value="线上推广研讨会" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mH3gT8QZtKuDU6rffEXB-10" value="线上推广研讨会" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="390" y="250" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mH3gT8QZtKuDU6rffEXB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mH3gT8QZtKuDU6rffEXB-11" target="mH3gT8QZtKuDU6rffEXB-12" edge="1">
@@ -70,7 +73,7 @@
         <mxCell id="mH3gT8QZtKuDU6rffEXB-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH3gT8QZtKuDU6rffEXB-13" target="mH3gT8QZtKuDU6rffEXB-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH3gT8QZtKuDU6rffEXB-13" value="线上大规模使用 &amp;amp; 降本" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mH3gT8QZtKuDU6rffEXB-13" value="线上大规模使用 &amp;amp; 降本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="510" y="110" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mH3gT8QZtKuDU6rffEXB-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
